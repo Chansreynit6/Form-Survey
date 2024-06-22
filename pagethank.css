@@ -1,0 +1,42 @@
+.container {
+  width: 80%;
+  height: 700px;
+  overflow: hidden;
+  background-color: #B1DAFF;
+  margin-left: 10%;
+}
+
+.box1 {
+    width: 70%;
+    height: 450px; 
+    background-color: rgb(255, 255, 255); 
+    margin-left: 16%;
+    margin-top: 30px;
+    border-radius: 30px;
+    padding: 20px; 
+    box-sizing: border-box; 
+    border: 1px solid black;
+}
+
+.box2 {
+  width: 90%;
+  height: 40px;
+  background-color: blue;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+
+.box1 h1 {
+    font-size: 40px;
+    color: black; 
+    margin-top: 20px; 
+    margin-left: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.box1 p{
+  font-size: 25px;
+  color: #1E58EB;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-left: 50px;
+}

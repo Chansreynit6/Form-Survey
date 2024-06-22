@@ -1,0 +1,65 @@
+.container {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+}
+
+.card {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 50px;
+}
+
+.text-center img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.header {
+  background-color: #5682F2; 
+  color: #ffffff; 
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 60px;
+  margin-top: 0;
+}
+
+.header p {
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+.mb-3, .feedback {
+  margin-top: 80px;
+}
+
+.mb-3 label, .feedback label {
+  font-size: 1.5rem;
+}
+
+.form-control {
+  margin-top: 10px;
+  width: 50%; 
+}
+
+.form-check {
+  margin-top: 10px;
+}
+
+.fullname, .email, .current, .learning, .interested, .yes-no1, .textarea-1, .select1, .yes-no2, .textarea-2, .yes-no3, .textarea-3, .select2, .type-learning, .important, .hope, .textarea-4, .textarea-5, .textarea-6, .textarea-7 {
+  margin-top: 30px;
+}
+
+.fullname label, .email label, .current label, .learning label, .interested label, .yes-no1 label, .textarea-1 label, .select1 label, .yes-no2 label, .textarea-2 label, .yes-no3 label, .textarea-3 label, .select2 label, .type-learning label, .important label, .feedback label, .hope label, .textarea-4 label, .textarea-5 label, .textarea-6 label, .textarea-7 label {
+  font-size: 1.5rem;
+}
+
+textarea.form-control {
+  resize: none;
+}
