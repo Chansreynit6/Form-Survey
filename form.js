@@ -3,6 +3,7 @@ document.forms[0].addEventListener('submit', totalValue);
 function totalValue(event){
     event.preventDefault();
 
+
     
 
     let fullName = document.getElementById('fullName').value;
@@ -245,3 +246,4 @@ function postApi(post) {
 postApi(dataValue);
     
 }
+
