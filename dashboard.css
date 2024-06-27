@@ -1,0 +1,54 @@
+.container{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box-card-number{
+    width: 800px;
+    height: 200px;
+    border: 2px solid black;
+    margin-top: 30px;
+}
+.box-card-number h1{
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+}
+.text-number{
+    margin: 45px auto;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.989);
+    border: 1px solid black;
+    color: white;
+    font-weight: bold;
+}
+.box-card-interest{
+    width: 1200px;
+    height: 250px;
+    border: 2px solid black;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.box-card-interest h1{
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+}
+.text-interest{
+    margin: 50px auto;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.989);
+    border: 1px solid black;
+    color: white;
+    font-weight: bold;
+}
+.tx{
+    width: 600px;
+    margin-left: 200px;
+    margin-top: 200px;
+}
