@@ -11,82 +11,36 @@
     <section class="container">
         <div class="box-card-number">
             <h1>Number of respone</h1>
-            <p class="text-number">12</p>
+            
         </div>
         <div class="box-card-interest">
             <h1>Students with previous experience in Web Development</h1>
-            <p class="text-interest">30</p>
+            
         </div>
     </section>
-    <section class="d-flex " style="margin-top: 40px;">
-        <div class="tx">
-            <table class="table table-bordered">
-                <thead>
-                  <tr>
-                    <th class="text-bg-primary p-3 border border-secondary">What is your current</th>
-                    <th class="text-bg-primary p-3 border border-secondary">Count of number</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Grade 10</td>
-                    <td class="text-sm-end">7</td>
-                  </tr>
-                  <tr>
-                    <td>Grade 11</td>
-                    <td class="text-sm-end">7</td>
-                  </tr>
-                  <tr>
-                    <td>Grade 12 (Failed)</td>
-                    <td class="text-sm-end">4</td>
-                  </tr>
-                  <tr>
-                    <td>Grade 12 (Passed)</td>
-                    <td class="text-sm-end">5</td>
-                  </tr>
-                  <tr>
-                    <td>Grade 9</td>
-                    <td class="text-sm-end">7</td>
-                  </tr>
-                  <tr>
-                    <th>Total Resulf</th>
-                    <th class="text-sm-end">30</th>
-                  </tr>
-                </tbody>
-              </table>
-        </div>
-        <div class="tx">
-            <table class="table table-bordered">
-                <thead>
-                  <tr>
-                    <th class="text-bg-primary p-3 border border-secondary">What is your current</th>
-                    <th class="text-bg-primary p-3 border border-secondary">Count of number</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>FSD</td>
-                    <td class="text-sm-end">20</td>
-                  </tr>
-                  <tr>
-                    <td>Partner NGO</td>
-                    <td class="text-sm-end">3</td>
-                  </tr>
-                  <tr>
-                    <td>Private school</td>
-                    <td class="text-sm-end">3</td>
-                  </tr>
-                  <tr>
-                    <td>Public school</td>
-                    <td class="text-sm-end">4</td>
-                  </tr>
-                  <tr>
-                    <th>Total Resulf</th>
-                    <th class="text-sm-end">30</th>
-                  </tr>
-                </tbody>
-              </table>
-        </div>
-    </section>
+    <div class="table1">
+      <select style="width:38%; height:65px;margin-left:48px;font-size: 20px; border-radius: 5px; " onchange="gradeApi()" id="myselect" >
+          <option selected disabled hidden value="null" >What is your current group?</option>
+          <option value="Grade9">Grade 9</option>
+          <option value="Grade10">Grade 10</option>
+          <option value="Grade11">Grade 11</option>
+          <option value="Grade12(failed)">Grade 12(failed)</option>
+          <option value="Grade12(passed)">Grade 12(passed)</option>
+         </select>
+         <div class="grade" style="height: 65px;" id="grade">
+        </div> 
+  </div>
+  <div class="table1">
+    <select style="width:38%; height:65px;margin-left:48px;font-size: 20px; border-radius: 5px;" onchange="schoolApi()" id="myschool" >
+        <option selected disabled hidden value="null" >Where is your current learning place?</option>
+        <option value="FSD">FSD</option>
+        <option value="Public School">Public School</option>
+        <option value="Private School">Private School</option>
+        <option value="Partner NGO">Partner NGO</option>
+       </select>
+       <div class="grade" style="height: 65px;" id="school">
+      </div> 
+</div>
+    <script src="dashboard.js"></script>
 </body>
 </html>
