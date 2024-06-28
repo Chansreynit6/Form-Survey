@@ -6,6 +6,7 @@ function totalValue(event) {
   let fullName = document.getElementById("fullName").value;
   let email = document.getElementById("email").value;
 
+
   console.log(fullName);
   console.log(email);
   let grade = document.getElementsByName("grade");
@@ -235,5 +236,9 @@ function totalValue(event) {
 
   postApi();
 
+
   window.location.href = "pagethank.html";
 }
+
+
+

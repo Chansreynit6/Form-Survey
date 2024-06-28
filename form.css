@@ -1,23 +1,36 @@
+/* Ensure the body has a background color and zero margins/padding */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Center the container and adjust its width */
 .container {
   width: 50%;
   margin: auto;
   padding: 20px;
 }
 
+/* Style the card */
 .card {
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Add padding to the card body */
 .card-body {
   padding: 50px;
 }
 
+/* Ensure images are responsive and have rounded corners */
 .text-center img {
   max-width: 100%;
   border-radius: 20px;
 }
 
+/* Style the header */
 .header {
   background-color: #5682F2; 
   color: #ffffff; 
@@ -25,49 +38,58 @@
   text-align: center;
 }
 
+/* Adjust header text size */
 .header h1 {
   font-size: 60px;
   margin-top: 0;
 }
 
+/* Adjust header paragraph text size */
 .header p {
   font-size: 22px;
   margin-top: 10px;
 }
 
+/* Margin top for specific elements */
 .mb-3, .feedback {
   margin-top: 80px;
 }
 
+/* Label font size */
 .mb-3 label, .feedback label {
   font-size: 1.5rem;
 }
 
+/* Input fields styling */
 .form-control {
   margin-top: 10px;
-  width: 50%; 
+  width: 100%;
 }
 
+/* Form check styling */
 .form-check {
   margin-top: 10px;
 }
 
+/* General margin top for various elements */
 .fullname, .email, .current, .learning, .interested, .yes-no1, .textarea-1, .select1, .yes-no2, .textarea-2, .yes-no3, .textarea-3, .select2, .type-learning, .important, .hope, .textarea-4, .textarea-5, .textarea-6, .textarea-7 {
   margin-top: 30px;
 }
 
+/* Label font size for various elements */
 .fullname label, .email label, .current label, .learning label, .interested label, .yes-no1 label, .textarea-1 label, .select1 label, .yes-no2 label, .textarea-2 label, .yes-no3 label, .textarea-3 label, .select2 label, .type-learning label, .important label, .feedback label, .hope label, .textarea-4 label, .textarea-5 label, .textarea-6 label, .textarea-7 label {
   font-size: 1.5rem;
 }
 
+/* Disable textarea resizing */
 textarea.form-control {
   resize: none;
 }
-.submit{
- 
+
   background-color: blue;
   color: #ffffff;
   border-radius: 20px;
   width: 100px;
   height: 50px;
 }
+

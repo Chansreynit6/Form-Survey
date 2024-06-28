@@ -6,6 +6,304 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="card mt-5">
+            <div class="card-body">
+                <div class="text-center">
+                    <img src="image 2.png" alt="Survey Image" class="img-fluid">
+                </div>
+                <div class="header mt-4 p-3">
+                    <h1>Welcome to the Future <br> Learning Survey!</h1>
+                    <p>We appreciate your time and effort in providing valuable feedback. This survey aims to understand your interests and preferences in various skills and subjects.</p>
+                </div>
+                <section>
+                    <form id="surveyForm">
+                        <div class="mb-3 fullname">
+                            <label for="fullName">1. What is Your Full Name?</label>
+                            <input type="text" id="fullName" name="fullName" class="form-control" required>
+                        </div>
+                        <div class="mb-3 email">
+                            <label for="email">2. What is your Email Address?</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3 current">
+                            <label>3. What is your current grade level?</label>
+                            <div class="form-check">
+                                <input type="radio" name="grade" value="Grade9" class="form-check-input">
+                                <label class="form-check-label">Grade 9</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="grade" value="Grade10" class="form-check-input">
+                                <label class="form-check-label">Grade 10</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="grade" value="Grade11" class="form-check-input">
+                                <label class="form-check-label">Grade 11</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="grade" value="Grade12-failed" class="form-check-input">
+                                <label class="form-check-label">Grade 12 (Failed)</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="grade" value="Grade12-passed" class="form-check-input">
+                                <label class="form-check-label">Grade 12 (Passed)</label>
+                            </div>
+                        </div>
+                        <div class="mb-3 learning">
+                            <label>4. Where is your current learning place?</label>
+                            <div class="form-check">
+                                <input type="radio" name="learning" value="FSD" class="form-check-input">
+                                <label class="form-check-label">FSD</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="learning" value="Public School" class="form-check-input">
+                                <label class="form-check-label">Public School</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="learning" value="Private School" class="form-check-input">
+
+                                <label class="form-check-label">Private School</label>
+
+
+
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="learning" value="Partner NGO" class="form-check-input">
+                                <label class="form-check-label">Partner NGO</label>
+                            </div>
+                        </div>
+                        <div class="mb-3 interested">
+                            <label>5. How interested are you in learning web development?</label>
+                            <div class="form-check">
+                                <input type="radio" name="interest" value="Interested" class="form-check-input">
+                                <label class="form-check-label">Interested</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="interest" value="Very Interested" class="form-check-input">
+                                <label class="form-check-label">Very Interested</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="interest" value="Neutral" class="form-check-input">
+                                <label class="form-check-label">Neutral</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="interest" value="Not at all Interested" class="form-check-input">
+                                <label class="form-check-label">Not at all Interested</label>
+                            </div>
+                        </div>
+                        <div class="mb-3 yes-no1">
+                            <label>6. Have you had any previous experience with web development?</label>
+                            <div class="form-check">
+                                <input type="radio" name="yes1" value="Yes" class="form-check-input">
+                                <label class="form-check-label">Yes</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="yes1" value="No" class="form-check-input">
+                                <label class="form-check-label">No</label>
+                            </div>
+                        </div>
+                        <div class="mb-3 textarea-1">
+                            <label for="floatingTextarea1">7. If yes, please describe your experience (e.g., self-taught, school projects, online courses, etc.):</label>
+                            <textarea class="form-control" placeholder="" id="floatingTextarea1" style="height: 100px"></textarea>
+                        </div>
+                        <div class="mb-3 select1">
+                            <label>8. Which aspects of web development interest you the most? (Select all that apply)</label>
+                            <div class="form-check">
+                                <input type="checkbox" name="checked1" value="check-1" class="form-check-input">
+                                <label class="form-check-label">Front-end development (HTML, CSS, Javascript)</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="checked1" value="check-2" class="form-check-input">
+                                <label class="form-check-label">Back-end development (Server-side programming, database)</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="checked1" value="check-3" class="form-check-input">
+                                <label class="form-check-label">Full-stack development</label>
+                            </div>
+                            <div class="form-check">
+
+                                <input type="checkbox" name="checked1" value="check-4" class="form-check-input">
+
+                                <label class="form-check-label">Mobile Application Development</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="checked1" value="check-5" class="form-check-input">
+                                <label class="form-check-label">Web design and User Experience (UX)</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="checked1" value="check-6" class="form-check-input">
+                                <label class="form-check-label">Other</label>
+                            </div>
+                        </div>
+                        <div class="mb-3 yes-no2">
+                            <label>9. Have you had any previous experience with web development?</label>
+                            <div class="form-check">
+                                <input type="radio" name="yes2" value="Yes" class="form-check-input">
+                                <label class="form-check-label">Yes</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="yes2" value="No" class="form-check-input">
+                                <label class="form-check-label">No</label>
+                            </div>
+                        </div>
+                        <div class="mb-3 textarea-2">
+                            <label for="floatingTextarea2">10. If yes, how would you describe your understanding of active pedagogy?</label>
+                            <textarea class="form-control" placeholder="" id="floatingTextarea2" style="height: 100px"></textarea>
+                        </div>
+                        <div class="mb-3 yes-no3">
+                            <label>11. Have you ever participated in a learning activity that used active pedagogy (e.g., project-based learning, collaborative learning, flipped classroom)?</label>
+                            <div class="form-check">
+                                <input type="radio" name="yes3" value="Yes" class="form-check-input">
+                                <label class="form-check-label">Yes</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="yes3" value="No" class="form-check-input">
+                                <label class="form-check-label">No</label>
+                            </div>
+                        </div>
+                        <div class="mb-3 textarea-3">
+                            <label for="floatingTextarea3">12. If yes, please describe the activity and what you learned from it:</label>
+                            <textarea class="form-control" placeholder="" id="floatingTextarea3" style="height: 100px"></textarea>
+                        </div>
+                        <div class="mb-3 select2">
+                            <label>13. How do you prefer to learn new concepts? (Select all that apply)</label>
+                            <div class="form-check">
+                                <input type="checkbox" name="checked2" value="check-7" class="form-check-input">
+                                <label class="form-check-label">Hands-on projects</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="checked2" value="check-8" class="form-check-input">
+                                <label class="form-check-label">Reading books or articles</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="checked2" value="check-9" class="form-check-input">
+                                <label class="form-check-label">Watching video tutorials</label>
+
+                            </div>
+
+                            <div class="form-check">
+                                <input type="checkbox" name="checked2" value="check-10" class="form-check-input">
+                                <label class="form-check-label">Attending workshops or classes</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="checked2" value="check-11" class="form-check-input">
+                                <label class="form-check-label">Online courses or MOOCs</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="checked2" value="check-12" class="form-check-input">
+                                <label class="form-check-label">Group study or discussion</label>
+                            </div>
+                        </div>
+                        <div class="mb-3 environment">
+                            <label>14. Which learning environment do you find most effective?</label>
+                            <div class="form-check">
+                                <input type="radio" name="learning-env" value="Traditional Classroom" class="form-check-input">
+                                <label class="form-check-label">Traditional Classroom</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="learning-env" value="Online Learning" class="form-check-input">
+                                <label class="form-check-label">Online Learning</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="learning-env" value="Blended Learning" class="form-check-input">
+                                <label class="form-check-label">Blended Learning</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="learning-env" value="Self-paced Learning" class="form-check-input">
+                                <label class="form-check-label">Self-paced Learning</label>
+                            </div>
+                        </div>
+                        <div class="mb-3 peer-interaction">
+                            <label>15. How important is peer interaction in your learning process?</label>
+                            <div class="form-check">
+                                <input type="radio" name="peer-interaction" value="Very Important" class="form-check-input">
+                                <label class="form-check-label">Very Important</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="peer-interaction" value="Somewhat Important" class="form-check-input">
+                                <label class="form-check-label">Somewhat Important</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="peer-interaction" value="Neutral" class="form-check-input">
+                                <label class="form-check-label">Neutral</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="peer-interaction" value="Not Important" class="form-check-input">
+                                <label class="form-check-label">Not Important</label>
+                            </div>
+                        </div>
+                        <div class="mb-3 feedback">
+                            <label>16. How comfortable are you with receiving feedback and support from peers or instructors?</label>
+                            <div class="form-check">
+                                <input type="radio" name="feedback" value="Very Comfortable" class="form-check-input">
+
+                                <label class="form-check-label">Very Comfortable</label>
+
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="feedback" value="Comfortable" class="form-check-input">
+                                <label class="form-check-label">Comfortable</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="feedback" value="Neutral" class="form-check-input">
+                                <label class="form-check-label">Neutral</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="feedback" value="Uncomfortable" class="form-check-input">
+                                <label class="form-check-label">Uncomfortable</label>
+                            </div>
+                        </div>
+                        <div class="mb-3 select3">
+                            <label>17. What do you hope to achieve by learning web development? (Select all that apply)</label>
+                            <div class="form-check">
+                                <input type="checkbox" name="hope" value="check-13" class="form-check-input">
+                                <label class="form-check-label">Build and launch a personal website</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="hope" value="check-14" class="form-check-input">
+                                <label class="form-check-label">Create web applications</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="hope" value="check-15" class="form-check-input">
+                                <label class="form-check-label">Pursue a career in web development</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="hope" value="check-16" class="form-check-input">
+                                <label class="form-check-label">Enhance problem-solving skills</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="hope" value="check-17" class="form-check-input">
+                                <label class="form-check-label">Improve design and creativity skills</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="hope" value="check-18" class="form-check-input">
+                                <label class="form-check-label">Other</label>
+                            </div>
+                        </div>
+                        <div class="mb-3 textarea-4">
+                            <label for="floatingTextarea4">18. How do you think web development skills will help you in the future?</label>
+                            <textarea class="form-control" placeholder="" id="floatingTextarea4" style="height: 100px"></textarea>
+                        </div>
+                        <div class="mb-3 textarea-5">
+                            <label for="floatingTextarea5">19. Are there any specific topics or technologies within web development that you would like to learn more about?</label>
+                            <textarea class="form-control" placeholder="" id="floatingTextarea5" style="height: 100px"></textarea>
+                        </div>
+                        <div class="mb-3 textarea-6">
+                            <label for="floatingTextarea6">20. Do you have any suggestions for improving this training program?</label>
+                            <textarea class="form-control" placeholder="" id="floatingTextarea6" style="height: 100px"></textarea>
+                        </div>
+
+                        <div class="mb-3 textarea-7">
+
+                            <label for="floatingTextarea7">21. Any additional comments or feedback?</label>
+                            <textarea class="form-control" placeholder="" id="floatingTextarea7" style="height: 100px"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </div>
+   <script src="form.js"></script>
 </body>
 </html>
